@@ -19,6 +19,8 @@ The coding and linear module equation is as follows:
 •	mecha_lm <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=mecha_data)
 •	summary(mecha_lm)
 
+
+
 The mecha_data variable was established to read in the vehicle sample information. This variable will also be utilized to perform our tests. 
 
 Results: The mecha_lm variable holds our linear module information, as listed below:
@@ -60,10 +62,10 @@ Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825
 F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 
 In viewing these data, I created a few plots to determine whether or not the was enough information about the vehicles to make decisions about the study. 
-AWD Box & Whisker Plot: The Box and Whisker plot views the Miles Per Gallon (mpg) for cars that have All Wheel Drive (AWD) and those that don’t. What we learn from this analysis is that the majority of the cars fall within 50% of their MPG category, whether they have AWD or not. There are outliers in both areas. The outliers for vehicles with no AWD are greater in 1QR. The outliers for vehicles with AWD are greater in 3QR. 
+AWD Box & Whisker Plot: The Box and Whisker plot views the Miles Per Gallon (mpg) for cars that have All Wheel Drive (AWD) and those that don’t. What we learn from this analysis is that the majority of the cars fall within 50% of their MPG category, whether they have AWD or not. There are outliers in both areas. The outliers for vehicles with no AWD are greater in 1QR. The outliers for vehicles with AWD are greater in 3QR. https://github.com/GodIsLove4U/AutosRUs/blob/master/AWD-MPG.PNG 
  
 
-Scatter Plot: Doing a scatter plot, we can look at our dependent variable, MPG. Then we look at our independent variable, vehicle length. These data tell us that the MPG improves with the  length of the vehicle being larger. Smaller vehicles get less MPG
+Scatter Plot: Doing a scatter plot, we can look at our dependent variable, MPG. Then we look at our independent variable, vehicle length. These data tell us that the MPG improves with the length of the vehicle being larger. Smaller vehicles get less MPG https://github.com/GodIsLove4U/AutosRUs/blob/master/VehLength-MPG.PNG 
  
 
 Conclusion
@@ -78,7 +80,7 @@ Suspension Coil Summary
 There is not a significant amount of variation on the PSI for the vehicles analyzed in the suspension coil analysis. There are 150 vehicles, most fall in the 1500 PSI spectrum. There are a few outliers above and below 1500. 
  
 
-Looking at the dplyr summary data, the minimum suspension captures .9796 of our PSI data. Based on our Mecha vehicle data, we determined that the pounds per inch range from 10-63. So, we are well with our weight parameters and criteria for the design specification. 
+Looking at the dplyr summary data, the minimum suspension captures .9796 of our PSI data. Based on our Mecha vehicle data, we determined that the pounds per inch range from 10-63. So, we are well with our weight parameters and criteria for the design specification. https://github.com/GodIsLove4U/AutosRUs/blob/master/SuspensionCoil.PNG
 
 > summary(susp_sum)
  Manufacturing_Lot       Mean     
