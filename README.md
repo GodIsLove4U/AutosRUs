@@ -14,7 +14,7 @@ The programs and analysis used for this project are as follows:
   Summary statistics
   
  The files containing the information and documentation for the challenge are:
- Technical Report text file: https://github.com/GodIsLove4U/AutosRUs/blob/master/MechaCarWriteUp.txt 
- Technical Report Word file: https://github.com/GodIsLove4U/AutosRUs/blob/master/Mod15TecRep062020.docx (downloadable) 
- R Script for Analysis: https://github.com/GodIsLove4U/AutosRUs/blob/master/MechaCarChallenge.R 
+    Technical Report text file: https://github.com/GodIsLove4U/AutosRUs/blob/master/MechaCarWriteUp.txt 
+    Technical Report Word file: https://github.com/GodIsLove4U/AutosRUs/blob/master/Mod15TecRep062020.docx (downloadable) 
+    R Script for Analysis: https://github.com/GodIsLove4U/AutosRUs/blob/master/MechaCarChallenge.R 
  
